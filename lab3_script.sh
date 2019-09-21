@@ -11,7 +11,7 @@ read filename
 echo "Enter regular expression: "
 read regex
 
-#grep $regex $filename
+grep $regex $filename
 
 grep -Ec '[0-9]{3}-[0-9]{3}-[0-9]{4}' $filename
 
